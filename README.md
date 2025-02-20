@@ -17,33 +17,26 @@ CS50AI explores various AI techniques, focusing on:
 
 Each problem set is stored in its respective directory, containing the problem description and my implementation.
 
-📦 CS50AI-Solutions  
+📦 CS50AI  
  ┣ 📂 0-search  
- ┃ ┣ 📜 degrees.py   
- ┃ ┣ 📜 tic_tac_toe.py  
- ┃ ┗ 📜 README.md  
+ ┃ ┣ 📁 degrees   
+ ┃ ┗ 📁 tictactoe    
  ┣ 📂 1-knowledge  
- ┃ ┣ 📜 minesweeper.py  
- ┃ ┣ 📜 knights.py  
- ┃ ┗ 📜 README.md  
+ ┃ ┣ 📁 minesweeper  
+ ┃ ┗ 📁 knights  
  ┣ 📂 2-uncertainty  
- ┃ ┣ 📜 pagerank.py  
- ┃ ┣ 📜 heredity.py  
- ┃ ┗ 📜 README.md  
+ ┃ ┣ 📁 pagerank  
+ ┃ ┗ 📁 heredity   
  ┣ 📂 3-optimization  
- ┃ ┣ 📜 crossword.py  
- ┃ ┗ 📜 README.md  
+ ┃ ┗ 📁 crossword  
  ┣ 📂 4-learning  
- ┃ ┣ 📜 shopping.py  
- ┃ ┣ 📜 nim.py  
- ┃ ┗ 📜 README.md  
+ ┃ ┣ 📁 shopping  
+ ┃ ┗ 📁 nim   
  ┣ 📂 5-neural-networks  
- ┃ ┣ 📜 traffic.py  
- ┃ ┗ 📜 README.md  
+ ┃ ┗ 📁 traffic   
  ┣ 📂 6-language  
- ┃ ┣ 📜 parser.py  
- ┃ ┣ 📜 attention.py  
- ┃ ┗ 📜 README.md   
+ ┃ ┣ 📁 parser  
+ ┃ ┗ 📁 attention    
  ┗ 📜 README.md  
 
 🚀 Getting Started
@@ -60,7 +53,7 @@ Each directory contains Python scripts that implement the solutions. You can run
 
 python filename.py
 
-For example, to run the degrees problem in 0-search/:
+For example, to run the degrees problem in 0-search/degrees/ :
 
 python degrees.py
 
@@ -69,6 +62,15 @@ python degrees.py
 	•	AI Algorithms (Search, CSPs, Probabilistic Models, etc.)
 	•	Machine Learning Frameworks (Scikit-learn, TensorFlow)
 	•	Natural Language Processing (NLP)
+
+
+⚠️ I’ve removed some files to optimize the repository size. Specifically:
+	•	In the degrees folder, the large and small datasets have been removed. You can download them from:
+📥 Download Degrees Dataset: https://cdn.cs50.net/ai/2023/x/projects/0/degrees.zip
+	•	In the traffic folder, the gtsrb dataset has been removed. You can download it from:
+📥 Download GTSRB Dataset: https://cdn.cs50.net/ai/2023/x/projects/5/gtsrb.zip
+
+Make sure to extract and place these datasets in their respective directories before running the related scripts.
 
 📜 License
 
