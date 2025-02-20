@@ -42,8 +42,8 @@ Each problem set is stored in its respective directory, containing the problem d
  ┃ ┗ 📜 README.md  
  ┣ 📂 6-language  
  ┃ ┣ 📜 parser.py  
- ┃ ┣ 📜 attention.py 
- ┃ ┗ 📜 README.md  
+ ┃ ┣ 📜 attention.py  
+ ┃ ┗ 📜 README.md   
  ┗ 📜 README.md  
 
 🚀 Getting Started
